@@ -1,0 +1,38 @@
+
+@media screen and (width <= 834px) {
+
+}
+
+@media screen and (width <= 320px) {
+    .content-container {
+		margin: auto;
+		text-align: center;
+		padding-top: 10vh;
+        border: 2px dotted #594B36;
+		}
+
+	body {
+		background-image: url(../images/yoriyori_background.png);
+	}
+
+    .start {
+        max-width: 40%;
+        padding: 2vh 0;
+        border-radius: 50%;
+    }
+
+	h1 {
+		color: #594B36;
+		font-family: "Inter", sans-serif;
+		font-size: 4vh;
+		margin: 0;
+	}
+
+	p {
+		color: #594B36;
+		font-family: "Inter", sans-serif;
+		font-size: 3vh;
+		margin: 0;
+	}
+
+}
