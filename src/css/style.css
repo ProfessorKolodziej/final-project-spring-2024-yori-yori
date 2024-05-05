@@ -32,6 +32,23 @@ h1 {
 
 body {
 	background-image: url(../images/yoriyori_background.png);
+	background-size: cover;
+}
+
+#volume {
+	padding: 1vh;
+	border-color: #594B36;
+	border-width: 2px;
+	border-radius: 1vh;
+	color: white;
+	background-color: #594B36;
+	position: absolute;
+	top: 3%;
+	right: 3%;
+}
+
+button {
+	font: italic 1vh "inter", sans-serif;
 }
 
 .title {
@@ -67,6 +84,10 @@ a {
 	border-radius: 100vh;
 }
 
+#facts {
+	padding: 3vh 9vw;
+}
+
 /* This uses the same value as --size-xs. */
 @media screen and (width <= 834px) {
 	.content-container {
@@ -75,10 +96,6 @@ a {
 		text-align: center;
 		padding-top: 20vh;
 		}
-
-	body {
-		background-image: url(../images/yoriyori_background.png);
-	}
 
 	.title {
 		color: #594B36;
@@ -123,10 +140,6 @@ a {
 		padding-top: 10vh;
 		}
 
-	body {
-		background-image: url(../images/yoriyori_background.png);
-	}
-
 	.title {
 		color: #594B36;
 		font-family: "Inter", sans-serif;
@@ -159,5 +172,4 @@ a {
 		padding: 2.5vh 10vw;
 		border-radius: 100vh;
 	}
-
 }

@@ -1,0 +1,166 @@
+.content-container {
+	margin: 0;
+	text-align: center;
+	padding-top: 6vh;
+	}
+
+body {
+	background-image: url(../images/yoriyori_background.png);
+	background-size: cover;
+}
+
+#home {
+    max-width: 12%;
+    position: absolute;
+    top: 2%;
+    left: 6%;
+}
+
+#volume {
+	padding: 1vh;
+	border-color: #594B36;
+	border-width: 2px;
+	border-radius: 1vh;
+	color: white;
+	background-color: #594B36;
+	position: absolute;
+	top: 2%;
+	right: 5%;
+    font-size: 1vh;
+}
+
+.about {
+    text-align: center;
+    color: #594B36;
+	font-family: "Inter", sans-serif;
+}
+
+#rec {
+    padding-bottom: 2vh;
+}
+
+#recommendationFactDisplay {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 2vh 4vh 3vh 4vh;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+
+p {
+    border: 3px solid #e4d0b2;
+    border-radius: 2vh;
+    background-color: white;
+    margin: 3vh;
+    padding: 4vh;
+    font-family: "Inter", sans-serif; 
+}
+
+button {
+    border: 2px solid #594B36;
+    border-radius: 3vh;
+    background-color: #6d6458;
+    color: white;
+    padding: 2vh;
+    font: italic 2vh "Inter", sans-serif;
+}
+
+@media screen and (width >= 320px) {
+    #home {
+        max-width: 6%;
+        top: 2%;
+        left: 4%;
+    }
+
+    p {
+        margin: 2vh 15vh 7vh 15vh;
+    }
+}
+
+@media screen and (width >= 834px) {
+
+    #home {
+        max-width: 4%;
+        top: 3%;
+        left: 3%;
+    }
+
+    #volume {
+        top: 1%;
+        right: 3%;
+        font-size: 1.3vh;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #c {
+        padding: 0 4vh;
+    }
+
+    #rec {
+        padding: 0;
+    }
+
+    #recommendationFactDisplay {
+        margin: 3vh 10vh;
+    }
+
+    button {
+        margin-top: 3vh;
+    }
+
+    .button {
+        margin: 0 7vh;
+    }
+
+    p {
+        margin: 3vh 1vh;
+        padding: 2vh;
+    }
+    
+}
+
+@media screen and (width >= 1160px) {
+
+    #home {
+        max-width: 3%;
+        top: 3%;
+        left: 3%;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .c {
+        padding: 0 8vh;
+    }
+
+    #recommendationFactDisplay {
+        margin: 3vh 50vh;
+    }
+
+    button {
+        margin-top: 3vh;
+    }
+
+    p {
+        margin: 3vh 1vh;
+        padding: 2vh;
+    }
+
+}

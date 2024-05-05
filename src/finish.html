@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Update your description here" />
+	<title>Welcome to Yori Yori</title>
+	<!--
+		This is where you should link your CSS file.
+	-->
+	<link href="css/finish.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main class="content-container">
+		<audio id="my-audio" autoplay loop>
+			<source src="audio/celebration.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		<button id="volume">MUTE</button>
+
+		<section id="hide-this">
+			<h3>Your Finished Dish:</h3>
+			<img src="images/finished-pot1.png">
+			<p>Share this with your friends! <button id="download-button">&dArr;</button></p>
+			<button id="button" onClick="usingButton()">NEXT &rarr;</button>
+		</section>
+
+		<section id="show-this">
+			<header>
+				<p class="title"><strong>A</strong><em>W</em><strong><em>E</em></strong>S<em>O</em><strong>M</strong><em>E </em><strong>J</strong><em>O</em><strong>B</strong><em>!</em></p>
+				<p class="sub">Thanks for helping out at Yori Yori today.</p>
+			</header>
+			<nav>
+				<ul>
+					<li><a class="again" href="game.html">play again</a></li>
+					<li><a href="index.html">go to home</a></li>
+				</ul>
+			</nav>
+		</section>
+	</main>
+	<!--
+		This is where you should link your JS file.
+	-->
+	<script src="js/js2.js"></script>
+</body>
+
+</html>

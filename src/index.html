@@ -18,6 +18,11 @@
 
 <body>
 	<main class="content-container">
+		<audio id="my-audio" autoplay loop>
+			<source src="audio/playerselect.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		<button id="volume">MUTE</button>
 		<header>
 			<p>welcome to</p>
 			<p class="title"><strong>[ </strong><strong>Y</strong><em>O</em><strong>R</strong><strong><em>I </em></strong>Y<strong><em>O</em></strong>R<strong><em>I</em></strong><strong> ]</strong></p>
@@ -26,7 +31,7 @@
 		<nav>
 			<ul>
 				<li><a href="game.html">play game</a></li>
-				<li><a href="quiz.html">quiz time!</a></li>
+				<li><a id="facts" href="facts.html">fun facts</a></li>
 			</ul>
 		</nav>
 		
@@ -34,7 +39,7 @@
 	<!--
 		This is where you should link your JS file.
 	-->
-	<script src="js/scripts.js"></script>
+	<script src="js/audio.js"></script>
 </body>
 
 </html>

@@ -12,8 +12,25 @@
     left: 5%;
 }
 
+#volume {
+	padding: 1vh;
+	border-color: #594B36;
+	border-width: 2px;
+	border-radius: 1vh;
+	color: white;
+	background-color: #594B36;
+	position: absolute;
+	top: 3%;
+	right: 3%;
+}
+
+button {
+	font: italic 1vh "inter", sans-serif;
+}
+
 body {
     background-image: url(../images/background2.png);
+    background-size: cover;
 }
 
 .title {

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Update your description here" />
+	<title>Fun Facts!</title>
+	<!--
+		This is where you should link your CSS file.
+	-->
+	<link href="css/facts.css" rel="stylesheet">
+</head>
+
+<body>
+	<main class="content-container">
+		<a href="index.html">
+			<img id="home" src="images/home.png" alt="House Icon to Nav Home">
+		</a>
+		<audio id="my-audio" autoplay loop>
+			<source src="audio/sunnyday.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		<button id="volume">MUTE</button>
+
+		<section class="about">
+			<h1><strong>Let's Learn About South Korea!</strong></h1>
+			<h3>Choose a category and get a fun fact:</h3>
+		</section> 
+
+		<section class="button">
+			<section class="food">
+				<button class="factBtn" data-category="food">FOOD</button>
+				<p id="foodFactDisplay"></p>
+			</section>
+			<section id="c" class="culture">
+				<button class="factBtn" data-category="culture">CULTURE</button>
+				<p id="cultureFactDisplay"></p>
+			</section>
+			<section class="history">
+				<button class="factBtn" data-category="history">HISTORY</button>
+				<p id="historyFactDisplay"></p>
+			</section>
+        </section>
+		<section class="about">
+			<h1 id="rec"><strong>What Should I Eat Today?</strong></h1>
+			<button class="factBtn" data-category="recommendation">Let's See...</button>
+			<p id="recommendationFactDisplay"></p>
+		</section>
+        
+     
+    </main>
+	<!--
+		This is where you should link your JS file.
+	-->
+	<script src="js/facts.js"></script>
+</body>
+
+</html>
