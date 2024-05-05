@@ -156,6 +156,16 @@ h2 a {
 	}   
 }
 
+@media screen and (width <= 600px) {
+    .title {
+        margin: 0;
+    }
+
+    p{
+        margin: 3vh 2vh;
+    }
+}
+
 @media screen and (width <= 320px) {
     .content-container {
 		margin: 0 auto;

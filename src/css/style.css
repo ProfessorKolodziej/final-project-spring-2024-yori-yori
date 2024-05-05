@@ -130,6 +130,10 @@ a {
 		padding: 2.5vh 10vw;
 		border-radius: 100vh;
 	}
+
+	#facts {
+		padding: 3vh 9vw;
+	}
 }
 
 @media screen and (width <= 320px) {
@@ -171,5 +175,9 @@ a {
 		background-color: #594B36;
 		padding: 2.5vh 10vw;
 		border-radius: 100vh;
+	}
+
+	#facts {
+		padding: 3vh 9vw;
 	}
 }

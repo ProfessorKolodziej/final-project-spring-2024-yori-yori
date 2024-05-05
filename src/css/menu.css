@@ -120,6 +120,17 @@ p {
 	}
 }
 
+@media screen and (width <= 380px) {
+    h1{
+        padding: 1vh;
+    }
+
+    h2 a {
+        font-size: 4vh;
+    }
+
+}
+
 @media screen and (width <= 320px) {
     .content-container {
 		margin: 1vh;
