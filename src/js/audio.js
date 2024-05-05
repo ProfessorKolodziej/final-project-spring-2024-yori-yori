@@ -1,7 +1,7 @@
-var audio = document.getElementById("my-audio");
+let audio = document.getElementById("my-audio");
 
     // Get the toggle button element
-    var toggleButton = document.getElementById("volume");
+    let toggleButton = document.getElementById("volume");
 
     // Function to toggle mute/unmute
     function toggleMute() {

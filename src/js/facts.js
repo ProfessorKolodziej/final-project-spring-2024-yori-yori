@@ -1,7 +1,7 @@
-var audio = document.getElementById("my-audio");
+let audio = document.getElementById("my-audio");
 
     // Get the toggle button element
-    var toggleButton = document.getElementById("volume");
+    let toggleButton = document.getElementById("volume");
 
     // Function to toggle mute/unmute
     function toggleMute() {
@@ -21,7 +21,7 @@ var audio = document.getElementById("my-audio");
 
 document.addEventListener("DOMContentLoaded", function() {
     // Define arrays for different categories of facts
-    var facts = {
+    let facts = {
         recommendation: [
         "Tteokbokki (of course!)",
         "Bibimbap",
@@ -65,20 +65,20 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Function to generate a random fact from a specific category
     function generateFact(category) {
-        var randomIndex = Math.floor(Math.random() * facts[category].length);
+        let randomIndex = Math.floor(Math.random() * facts[category].length);
         return facts[category][randomIndex];
     }
     
     // Function to display the fact
     function displayFact(event) {
-        var category = event.target.dataset.category;
-        var factDisplayId = category + 'FactDisplay';
-        var factDisplay = document.getElementById(factDisplayId);
+        let category = event.target.dataset.category;
+        let factDisplayId = category + 'FactDisplay';
+        let factDisplay = document.getElementById(factDisplayId);
         factDisplay.textContent = generateFact(category);
     }
     
     // Add event listeners to the buttons
-    var factButtons = document.querySelectorAll('.factBtn');
+    let factButtons = document.querySelectorAll('.factBtn');
     factButtons.forEach(function(button) {
         button.addEventListener('click', displayFact);
     });

@@ -1,7 +1,7 @@
-var audio = document.getElementById("my-audio");
+let audio = document.getElementById("my-audio");
 
     // Get the toggle button element
-    var toggleButton = document.getElementById("volume");
+    let toggleButton = document.getElementById("volume");
 
     // Function to toggle mute/unmute
     function toggleMute() {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 function downloadImage() {
-    var link = document.createElement('a');
+    let link = document.createElement('a');
     link.href = 'src/images/finished-pot1.png'; // Replace with actual image URL
     link.download = 'finished-pot1.png'; // Optional: specify download filename
     document.body.appendChild(link);
@@ -32,6 +32,9 @@ function downloadImage() {
     document.body.removeChild(link);
     }
 
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('nextbutton').addEventListener('click', usingButton);
+    });
 
 function usingButton() {
     console.log('it works');
@@ -42,7 +45,7 @@ function usingButton() {
         x.style.display = "block";
     }
 
-    var y = document.getElementById("hide-this");
+    const y = document.getElementById("hide-this");
     if (y.style.display === "none") {
         y.style.display = "block";
     } else {

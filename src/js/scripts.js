@@ -7,10 +7,10 @@
 // - You'll need to link this file to your HTML :)
 
 
-var audio = document.getElementById("my-audio");
+let audio = document.getElementById("my-audio");
 
     // Get the toggle button element
-    var toggleButton = document.getElementById("volume");
+    let toggleButton = document.getElementById("volume");
 
     // Function to toggle mute/unmute
     function toggleMute() {
@@ -71,7 +71,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("broth");
+            let x = document.getElementById("broth");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -97,7 +97,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("spice");
+            let x = document.getElementById("spice");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -123,7 +123,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("dduk");
+            let x = document.getElementById("dduk");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -149,7 +149,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("deng");
+            let x = document.getElementById("deng");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -175,7 +175,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("onion");
+            let x = document.getElementById("onion");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -201,7 +201,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("oil");
+            let x = document.getElementById("oil");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -227,7 +227,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("seeds");
+            let x = document.getElementById("seeds");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -253,7 +253,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("pa");
+            let x = document.getElementById("pa");
             if (x.style.display === "none") {
               x.style.display = "block";
             } else {
@@ -279,7 +279,7 @@ buttons.forEach(button => {
             }, 1000)
         } else {
             console.log('it works');
-            var x = document.getElementById("egg");
+            let x = document.getElementById("egg");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
