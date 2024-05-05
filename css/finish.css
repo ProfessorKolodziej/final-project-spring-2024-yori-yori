@@ -1,0 +1,182 @@
+.content-container {
+	margin: auto;
+	text-align: center;
+	padding-top: 6vh;
+}
+
+body {
+	background-image: url(../images/yoriyori_background.png);
+	background-size: cover;
+}
+
+#volume {
+	padding: 1vh;
+	border-color: #594B36;
+	border-width: 2px;
+	border-radius: 1vh;
+	color: white;
+	background-color: #594B36;
+	position: absolute;
+	top: 1%;
+	right: 3%;
+}
+
+button {
+	font: italic 1vh "inter", sans-serif;
+}
+
+h3 {
+	color: #594B36;
+	font: 500 italic 6vh "Inter", sans-serif;
+	margin: 0;
+    text-align: center;
+}
+
+p {
+    color: #594B36;
+	font: 500 italic 3vh "Inter", sans-serif;
+	margin: 0;
+    text-align: center;
+}
+
+#download-button {
+    font-size: 3vh;
+    font-style: normal;
+    border: none;
+    background-color: #c2af91;
+    color: #FBF2E5;
+    padding: 0.5vh 2vh;
+    border-radius: 1vh;
+    margin-left: 2vh;
+}
+
+#download-button:hover {
+    background-color: #594B36;
+}
+
+#hide-this{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+img {
+    max-width: 100%;
+    margin: auto;
+    padding: 4vh 0;
+}
+
+#nextbutton {
+    font: 400 2.5vh "Inter", sans-serif;
+    color: #FBF2E5;
+    background-color: #594B36;
+    padding: 1.5vh 8vw;
+    border-radius: 100vh;
+    margin: 3vh 25vw;
+}
+
+#show-this {
+    display: none;
+}
+
+.title {
+    color: #594B36;
+	font-family: "Inter", sans-serif;
+	font-size: 6vh;
+	margin: 0;
+    padding: 0 2vh;
+}
+
+.sub {
+	font-size: 3.5vh;
+    padding: 2vh 2vh 0 2vh;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+}
+
+ul li {
+	margin: 6vh 0 8vh 0;
+}
+
+a {
+	text-decoration: none;
+	font-size: 3vh;
+	color: #FBF2E5;
+	background-color: #594B36;
+	padding: 2vh 10vw;
+	border-radius: 100vh;
+    margin: 0;
+}
+
+a.again {
+    padding: 2vh 11vw;
+}
+
+@media screen and (width >= 320px) {
+    .content-container {
+        margin-top: 2vh;
+    }
+
+    #volume {
+        top: 2%;
+        right: 3%;
+        font-size: 1.2vh;
+    }
+
+    img {
+        padding-top: 7vh;
+    }
+
+    .title {
+        font-size: 10vh;
+    }
+
+    .sub {
+        font-size: 4vh;
+    }
+
+    a {
+        font-size: 4vh;
+    }
+
+    a.again {
+        padding: 2vh 11vw;
+    }
+
+}
+
+@media screen and (width >= 835px) {
+    .content-container {
+        padding-top: 10vh;
+    }
+
+    #volume {
+        top: 2.5%;
+        right: 3%;
+        font-size: 1.5vh;
+    }
+
+    .title {
+        font-size: 15vh;
+    }
+
+    .sub {
+        padding-bottom: 4vh;
+        font-size: 5vh;
+    }
+
+    a {
+        font-size: 5vh;
+        padding: 2vh 8vw;
+    }
+
+    a.again {
+        padding: 2vh 9vw;
+    }
+}

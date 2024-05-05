@@ -1,0 +1,160 @@
+.content-container {
+    margin: 4vh;
+    text-align: center;
+    padding: 2vh 3vh;
+    border: 3px dotted #594B36;
+    }
+
+body {
+    background-image: url(../images/yoriyori_background.png);
+    background-size: cover;
+
+}
+
+#volume {
+	padding: 1vh;
+	border-color: #594B36;
+	border-width: 2px;
+	border-radius: 1vh;
+	color: white;
+	background-color: #594B36;
+	position: absolute;
+	top: 6%;
+	right: 4%;
+}
+
+button {
+	font: italic 1vh "inter", sans-serif;
+}
+
+.start {
+    max-width: 20%;
+    border: 2px solid white;
+    border-radius: 4vh;
+}
+
+h1 {
+    color: #594B36;
+    font-family: "Inter", sans-serif;
+    font-size: 8vh;
+    padding: 2vh 0 3vh 0;
+    margin: 0;
+}
+
+h2 {
+    color: #594B36;
+    font: 500 7vh "Inter", sans-serif;
+    padding: 2vh 0;
+    margin: 0 0 1vh 0;
+}
+
+h2 a {
+    text-decoration: none;
+    font: 400 5vh "Inter", sans-serif;
+    color: #FBF2E5;
+    background-color: #594B36;
+    padding: 1.5vh 6vw;
+    border-radius: 100vh;
+}
+
+p {
+    color: #594B36;
+    font-family: "Inter", sans-serif;
+    font-size: 4vh;
+    margin: 0;
+    padding-bottom: 2vh;
+}
+
+@media screen and (width <= 834px) {
+    .content-container {
+		margin: 2.5vh;
+		text-align: center;
+		padding: 2vh 3vh;
+        border: 2px dotted #594B36;
+		}
+
+	body {
+		background-image: url(../images/yoriyori_background.png);
+	}
+
+    #volume {
+        top: 4%;
+        right: 6%;
+    }
+
+    .start {
+        max-width: 30%;
+        border: 2px solid white;
+    }
+
+	h1 {
+		color: #594B36;
+		font-family: "Inter", sans-serif;
+		font-size: 6vh;
+        padding: 2vh 0 4vh 0;
+		margin: 0;
+	}
+
+    h2 {
+        color: #594B36;
+		font: 500 6vh "Inter", sans-serif;
+        padding-top: 3vh;
+		margin: 0 0 4vh 0;
+    }
+
+    h2 a {
+        text-decoration: none;
+		font: 400 5vh "Inter", sans-serif;
+		color: #FBF2E5;
+		background-color: #594B36;
+		padding: 1.5vh 8vw;
+		border-radius: 100vh;
+	}
+
+
+	p {
+		color: #594B36;
+		font-family: "Inter", sans-serif;
+		font-size: 3vh;
+		margin: 0;
+	}
+}
+
+@media screen and (width <= 320px) {
+    .content-container {
+		margin: 1vh;
+		text-align: center;
+		padding: 4vh 3vh;
+        border: 2px dotted #594B36;
+		}
+
+    #volume {
+        top: 2.4%;
+        right: 10%;
+    }
+
+    h2 {
+        color: #594B36;
+		font: 500 4vh "Inter", sans-serif;
+        padding-top: 2vh;
+		margin: 0 0 4vh 0;
+    }
+
+    h2 a {
+        text-decoration: none;
+		font: 400 3vh "Inter", sans-serif;
+		color: #FBF2E5;
+		background-color: #594B36;
+		padding: 1.5vh 13vw;
+		border-radius: 100vh;
+	}
+
+
+	p {
+		color: #594B36;
+		font-family: "Inter", sans-serif;
+		font-size: 2vh;
+		margin: 0;
+	}
+
+}

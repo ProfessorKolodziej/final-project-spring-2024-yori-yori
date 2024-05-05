@@ -1,0 +1,233 @@
+.content-container {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2vh;
+    position: relative;
+    }
+
+body {
+    background-image: url(../images/yoriyori_background.png);
+    background-size: cover;
+}
+
+#home {
+    max-width: 12%;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+
+#volume {
+	padding: 1vh;
+	border-color: #594B36;
+	border-width: 2px;
+	border-radius: 1vh;
+	color: white;
+	background-color: #594B36;
+	position: absolute;
+	top: 1%;
+	right: 3%;
+}
+
+button {
+	font: italic 1vh "inter", sans-serif;
+}
+
+body {
+    background-color: #FBF2E5;
+}
+
+#score-title {
+    padding: 2vh 0 0 0;
+    color: #594B36;
+    font-size: 4vh;
+}
+  
+.score p {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vh;
+    color: rgb(255, 114, 114);
+    padding-bottom: 1vh;
+    margin: 0;
+}
+
+.score {
+    margin: 3vh;
+    padding-bottom: 0;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    color: #594B36;
+    font-family: "Inter", sans-serif;
+    font-size: 3.5vh;
+    margin: 0;
+}
+
+.instructions p {
+    font: 600 italic 3vh "Inter", sans-serif;
+    padding-bottom: 2vh;
+    color: rgb(255, 114, 114);
+    margin-top: 3vh;
+}
+  
+#ingredients {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #E1C6AE;
+    border-radius: 1vh;
+    padding: 2vh;
+    margin: 0;
+}
+
+img {
+    max-width: 70%;
+}
+
+#broth, #spice, #dduk, #deng, #onion, #oil, #seeds, #pa, #egg {
+    display: none;
+}
+
+.button {
+    padding: 1vh 0;
+    cursor: pointer;
+    border-radius: 1vh;
+    border: 0px solid #594B36;
+    background-color: #FBF2E5;
+}
+
+.button.clicked {
+    opacity: 0.1;
+}
+
+a.finish{
+    text-decoration: none;
+    font: 400 4vh "Inter", sans-serif;
+    color: #FBF2E5;
+    background-color: #594B36;
+    padding: 1.5vh 8vw;
+    border-radius: 100vh;
+}
+
+@media screen and (width >= 320px) {
+    #home {
+        max-width: 6%;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+
+    #volume {
+        top: 1%;
+        right: 3%;
+    }
+
+    p {
+        font-size: 4.5vh;
+    }
+
+    #score-title {
+        padding: 2vh 0 0 0;
+    }
+
+    .score p {
+        padding-bottom: 2vh;
+        margin: 0;
+    }
+
+    .score {
+        padding: 1vh 4vh;
+        margin: 0;
+    }
+    .instructions p{
+        margin: 3vh 0 0 0;
+    } 
+
+    #ingredients {
+        margin: 3vh 6vw 0 6vw;
+    }
+
+    img {
+        max-width: 40%;
+    }
+}
+
+@media screen and (width >= 834px) {
+    .content-container {
+        padding-top: 2vh;
+    }
+
+    #home {
+        max-width: 4%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+    }
+
+    #volume {
+        top: 3%;
+        right: 3%;
+        font-size: 2vh;
+    }
+
+    .score {
+        margin-bottom: 0;;
+    }
+
+    #score-title {
+        font-size: 4vh;
+    }
+
+    .score p {
+        font-size: 6vh;
+        padding-bottom: 1.5vh;
+    }
+
+    .instructions {
+        padding: 0;
+    }
+
+    #title {
+        font-size: 7vh;
+    }
+
+    .instructions p {
+        font: 600 italic 7vh "Inter", sans-serif;
+        padding-bottom: 0;
+        color: rgb(255, 114, 114);
+        margin: 0;
+    }
+
+    .game {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: 10px;
+        padding-top: 0;
+    }
+
+    img{ 
+        max-width: 85%;
+    }
+
+    #ingredients {
+        max-width: 50%;
+        max-height: 55%;
+        margin-right: 0;
+        margin-top: 4vh;
+        padding-bottom: 7vh;
+    }
+
+    .the-pot {
+        padding: 0 5vh;
+        margin: 0;
+    }
+}
